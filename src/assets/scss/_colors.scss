@@ -1,8 +1,8 @@
 $black: #101010;
 $light: #f4f4f4;
-$grey: #42413e;
+$grey: #7a7974;
 $white: #ffffff;
-$primary: #f9d342;
+$primary: #218f89;
 $secondary: #1843b8;
 $danger: #d64c4c;
 $success: #1c8a4a;
@@ -11,7 +11,7 @@ $light-grey: #cbcbcb;
 $lighten-grey: #e0e0e0;
 $light-red: #f5eeee;
 $yellow: #f9d342;
-$darken-blue: #b9f6ca;
+
 $green-accent: #eeeeee;
 $anim-palette-1: #ffb426;
 $anim-palette-2: #0e152e;
@@ -54,11 +54,6 @@ $twitter-color: #50abf1;
 
 .light-grey {
   background: $light-grey;
-}
-
-.darkenBlue {
-  background-color: $darken-blue;
-  color: $black;
 }
 
 .gree-accent {
@@ -106,4 +101,7 @@ $twitter-color: #50abf1;
 }
 .text-info {
   color: $info;
+}
+.text_bold {
+  font-weight: bold;
 }
