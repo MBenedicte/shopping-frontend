@@ -1,0 +1,71 @@
+@import "./pixels";
+
+.small_radius {
+  border: Opx solid;
+  border-radius: $-xsmall;
+}
+.medium_radius {
+  border: Opx solid;
+  border-radius: $medium;
+}
+
+.large_radius {
+  border: Opx solid;
+  border-radius: $large;
+}
+
+.xlarge_radius {
+  border: Opx solid;
+  border-radius: $xlarge;
+}
+
+.xxlarge_radius {
+  border: Opx solid;
+  border-radius: $xxlarge;
+}
+
+// Radius on top corner only
+.sm_top_radius {
+  border: Opx solid;
+  border-radius: $-xsmall $-xsmall 0 0;
+}
+.md_top_radius {
+  border: Opx solid;
+  border-radius: $medium $medium 0 0;
+}
+.l_top_radius {
+  border: Opx solid;
+  border-radius: $large $medium 0 0;
+}
+
+.xl_top_radius {
+  border: Opx solid;
+  border-radius: $xlarge $xlarge 0 0;
+}
+.xxl_top_radius {
+  border: Opx solid;
+  border-radius: $xxlarge $xxlarge 0 0;
+}
+
+// Radius on top right corner only
+.sm_btm_radius {
+  border: Opx solid;
+  border-radius: 0 0 $-xsmall $-xsmall;
+}
+.md_btm_radius {
+  border: Opx solid;
+  border-radius: 0 0 $medium $medium;
+}
+.l_btm_radius {
+  border: Opx solid;
+  border-radius: 0 0 $large $large;
+}
+
+.xl_btm_radius {
+  border: Opx solid;
+  border-radius: 0 0 $xlarge $xlarge;
+}
+.xxl_btm_radius {
+  border: Opx solid;
+  border-radius: 0 0 $xxlarge $xxlarge;
+}

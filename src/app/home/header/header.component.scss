@@ -1,0 +1,14 @@
+@import "../../../assets/scss/styles.scss";
+.header-nav-bar {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.small_header,
+.b_header {
+  background-color: $lighten-grey;
+  overflow: hidden;
+}
+a {
+  color: red !important;
+  text-decoration: none !important;
+}
