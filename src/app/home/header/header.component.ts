@@ -7,7 +7,7 @@ import {faPhone } from "@fortawesome/free-solid-svg-icons"
   styleUrls: ["./header.component.scss"]
 })
 export class HeaderComponent implements OnInit {
-  faPhone = faPhone;
+ 
   constructor() {}
 
   ngOnInit() {}

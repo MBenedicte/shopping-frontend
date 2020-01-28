@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
 .header-nav-bar {
-  margin: -8px !important;
+  margin: -8px -8px 0px -8px !important;
   font-family: "Open Sans", sans-serif;
+  display: block;
+  position: relative;
 }
 .small_header {
   background-color: $lighten-grey;
-  height: $xxlarge;
+  height: ($xxlarge + 5);
   padding: 0 ($xlarge * 3);
-  overflow: hidden;
 }
 .border_left {
   border-left: $black 2px;
@@ -19,22 +20,51 @@ a {
   text-decoration: none !important;
 }
 
-.small_header a:hover {
-  color: $grey;
+.circular-border {
+  border: 2px $primary solid;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 50% 30%;
+  color: $primary;
+  i {
+    font-size: 14px;
+  }
 }
+.circular-border:hover {
+  color: $grey;
+  border: 3px $grey solid;
+  padding: 3px;
+}
+
 .b_header {
+  height: 60px;
+  display: block;
   padding: 0 ($xlarge * 3);
   a {
     font-size: $medium;
   }
 }
-.Logo {
-  padding: 0 ($xxlarge * 6);
-  font-size: $xxlarge;
+.logo_text {
+  padding: 0;
+  font-size: ($xxlarge);
   font-family: "Playfair Display", serif;
 }
 
 .auth a {
   background-color: $black;
   color: $light;
+}
+.auth a:hover {
+  color: $primary;
+  padding: 5px 15px;
+  border-bottom: 3px $primary solid;
+}
+
+.logo {
+  position: absolute;
+  margin: 0 35%;
+}
+.main_menu li a:hover {
+  border-bottom: 3px $primary solid;
+  color: $primary;
 }

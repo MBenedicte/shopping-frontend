@@ -1,0 +1,26 @@
+@import "../../../assets/scss/styles.scss";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.body-section {
+  margin: 0 -8px;
+  font-family: "Open Sans", sans-serif;
+}
+.l_image_img img {
+  height: 500px;
+  float: right;
+}
+.l-image_text {
+  position: absolute;
+  .first_text {
+    font-size: ($xxlarge * 2);
+    color: $light;
+    font-weight: bolder;
+  }
+  .second_text {
+    font-size: $xxlarge;
+  }
+  .third_text {
+    font-size: $xlarge;
+    font-weight: lighter;
+  }
+}

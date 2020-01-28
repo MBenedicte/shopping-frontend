@@ -1,3 +1,4 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "pixels";
 @import "heading";
 @import "grid";
@@ -8,10 +9,11 @@
 @import "alert";
 @import "border";
 @import "radius";
+@import "figures";
 
 // Styles
-
 body {
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   height: 100%;
@@ -27,32 +29,6 @@ header {
   width: 100%;
   z-index: 150;
   border-bottom: 1px solid $light;
-}
-
-// logo brand
-.logo {
-  top: 3px;
-  position: relative;
-  width: 100%;
-  max-width: 280px;
-  float: left;
-  height: auto;
-}
-
-.logo-small {
-  top: 4px;
-  position: relative;
-  width: 100%;
-  float: left;
-  height: auto;
-}
-.logo img {
-  width: 100%;
-  height: auto;
-}
-.logo-small img {
-  width: 40px;
-  height: auto;
 }
 
 // float
