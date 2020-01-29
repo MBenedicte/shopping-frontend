@@ -1,0 +1,28 @@
+@import "./_pixels.scss";
+@import "./colors";
+/* button */
+
+.button {
+  width: 80px;
+  text-align: center !important;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 300px 0;
+}
+.button a {
+  padding: 6px 30px;
+  text-decoration: none;
+}
+
+.discount {
+  position: absolute;
+  text-align: center !important;
+  font-size: 22px;
+  font-weight: bold;
+  .percentage {
+    padding: 20px;
+    border: brown;
+    border-radius: 50% !important;
+    margin: 20px;
+  }
+}
