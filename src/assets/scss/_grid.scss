@@ -7,9 +7,7 @@ $full-width: 100%;
 }
 /* container */
 .container {
-  margin: 0 auto;
-  max-width: 1100px;
-  width: ($full-width - 2);
+  padding: 0 ($xlarge * 3);
 }
 
 /* grid */

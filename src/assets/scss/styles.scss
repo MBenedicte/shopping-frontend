@@ -10,6 +10,8 @@
 @import "border";
 @import "radius";
 @import "figures";
+@import "images";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
 
 // Styles
 body {
@@ -114,9 +116,8 @@ header {
 
 // card
 .card {
-  margin: ($large * 7) auto;
-  padding: 1%;
-  width: 98%;
+  padding: 0%;
+  width: 100%;
   display: block;
 }
 .card-info span {
@@ -204,4 +205,41 @@ header {
 
 .cursor-pointer {
   cursor: pointer;
+}
+.icon {
+  float: left;
+  font-size: $large;
+  padding: 23.5px;
+}
+.shop_info_texts {
+  padding: 2%;
+}
+.shopping_info_main_txt {
+  font-size: $xlarge;
+}
+.condenced_text {
+  font-family: "Open Sans Condensed";
+}
+.box {
+  float: left;
+}
+.section {
+  width: 350px;
+  height: 350px;
+}
+.section-one {
+  margin: 0px;
+  width: 388px;
+  height: 350px;
+  position: relative;
+}
+.section-two {
+  width: 415px;
+  margin: 0 32px 0 29px;
+  height: 350px;
+}
+.section-three {
+  width: 356px;
+  margin: 0 0 0 0px;
+  height: 350px;
 }

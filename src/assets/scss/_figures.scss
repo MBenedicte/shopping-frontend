@@ -10,3 +10,27 @@
   border-top: 45px solid white;
   float: left;
 }
+.triangle-bottom-left {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid $primary;
+  border-right: 20px solid transparent;
+}
+.triangle-bottom-left-black {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid $black;
+  border-right: 20px solid transparent;
+}
+.triangle-top-right {
+  width: 0;
+  height: 0;
+  border-top: 80px solid $black;
+  border-left: 20px solid transparent;
+}
+.triangle-top-right-primary {
+  width: 0;
+  height: 0;
+  border-top: 80px solid $primary;
+  border-left: 20px solid transparent;
+}

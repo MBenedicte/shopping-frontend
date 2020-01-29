@@ -9,6 +9,8 @@ import { AuthComponent } from "./auth/auth.component";
 import { HeaderComponent } from "./home/header/header.component";
 import { BodyComponent } from "./home/body/body.component";
 import { FooterComponent } from "./home/footer/footer.component";
+import { DiscountComponent } from './home/body/discount/discount.component';
+import { ProductsComponent } from './home/body/products/products.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FooterComponent } from "./home/footer/footer.component";
     AuthComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    DiscountComponent,
+    ProductsComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

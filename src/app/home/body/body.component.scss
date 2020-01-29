@@ -29,3 +29,28 @@
     font-family: "Open Sans Condensed", sans-serif;
   }
 }
+.shopping_info {
+  margin-top: 44%;
+  display: block;
+  // background-color: brown;
+}
+.ship_info {
+  float: left;
+  width: 31.80%;
+  color: $light;
+}
+.return_info {
+  color: $light;
+  float: left;
+  width: 35.6%;
+  margin: 0 0 0 8px
+}
+.support_info {
+  float: right;
+  width: 31%;
+  color: $light;
+}
+.shop_info_texts {
+  padding: 8px 80px 7px 10px;
+}
+
