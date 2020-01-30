@@ -11,6 +11,8 @@ import { BodyComponent } from "./home/body/body.component";
 import { FooterComponent } from "./home/footer/footer.component";
 import { DiscountComponent } from './home/body/discount/discount.component';
 import { ProductsComponent } from './home/body/products/products.component';
+import { SignupComponent } from './auth/signup/signup.component';
+import { SigninComponent } from './auth/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ProductsComponent } from './home/body/products/products.component';
     BodyComponent,
     FooterComponent,
     DiscountComponent,
-    ProductsComponent
+    ProductsComponent,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
