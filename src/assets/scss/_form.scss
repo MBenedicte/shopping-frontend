@@ -6,7 +6,7 @@
   font-size: 30px;
 }
 .form_box {
-  padding: $xlarge $large;
+  padding: $large;
   input {
     width: 40% !important;
   }
@@ -19,6 +19,12 @@ input {
   font-size: 16px;
 }
 
+.login {
+  padding: $xlarge $large;
+  input {
+    width: 70% !important;
+  }
+}
 .check_box {
   padding: $xlarge $large;
 }
