@@ -1,0 +1,24 @@
+@import "pixels";
+@import "colors";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.form_title {
+  font-size: 30px;
+}
+.form_box {
+  padding: $xlarge $large;
+  input {
+    width: 40% !important;
+  }
+}
+
+input {
+  outline: none;
+  border-style: hidden;
+  border-bottom: 1px $black solid;
+  font-size: 16px;
+}
+
+.check_box {
+  padding: $xlarge $large;
+}

@@ -26,3 +26,34 @@
     margin: 20px;
   }
 }
+.round_btn_light {
+  a {
+    padding: 6px 30px;
+    text-decoration: none;
+    color: $primary;
+    font-size: $large;
+    border-radius: 30px;
+    border: 2px $primary solid;
+  }
+  a:hover {
+    border-radius: 30px;
+    background-color: $primary;
+    color: $light;
+  }
+}
+.round_button_primary {
+  a {
+    padding: 6px 30px;
+    text-decoration: none;
+    font-size: $large;
+    border-radius: 30px;
+    color: $light;
+    background-color: $primary;
+  }
+  a:hover {
+    border-radius: 30px;
+    border: 2px $primary solid;
+    color: $primary;
+    background-color: $light;
+  }
+}
